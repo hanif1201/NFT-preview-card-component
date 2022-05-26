@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap');
+
+    body{
+      background-color: hsl(217, 54%, 11%);
+      font-family: "outfit";
+      position: absolute;
+      top: 20%;
+      left: 40%;
+
+    }
+
+    
+
+    .container{
+    
+      transform:scale(0.75); 
+      background-color: hsl(216, 50%, 16%);
+      width: 300px;
+      height: auto;
+      display: flex; 
+      justify-content: center;
+      flex-direction: column;
+      border-radius: 10px;
+      box-shadow: 2px .5px #000;
+    }
+
+    img{
+      display: flex;
+      width: 250px;
+      height: 250px;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      place-items: center;
+      
+    }
+
+    h1{
+      font-size: 18px;
+      display: flex;
+      color: #ffff;
+      padding-left: 25px;
+      
+    }
+
+    p{
+      padding-left: 25px;
+    }
+
+    .container-price{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .container-day{
+      padding-right: 25px;
+    }
+
+
+
+
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="body">
+
+    <div class="container">
+      <div class="container-image">
+        <img src="images/image-equilibrium.jpg" alt="" srcset="">
+      </div>
+  
+      <div class="container-header">
+        <h1>Equilibrium #3429</h1>
+      </div>
+  
+      <div class="container-paragraph">
+        <p>Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
+      <div class="container-price">
+        <div class="container-p">
+          <p> 0.041 ETH</p>
+        </div>
+  
+        <div class="container-day">
+          <p>3 days left</p>
+        </div>
+      </div>
+  
+  
+      
+    </div>
+  
+
+  </div>
+
+  
+  
+  <!-- Creation of Jules Wyvern
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
